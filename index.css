@@ -1,0 +1,10 @@
+/* Global reset: component styling lives in App.css. */
+html, body, #root {
+  min-width: 320px;
+  min-height: 100%;
+  margin: 0;
+}
+
+body {
+  background: #f4f7fb;
+}
