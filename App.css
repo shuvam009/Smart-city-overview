@@ -106,7 +106,7 @@ button {
   border: 2px solid white;
   border-radius: 50%;
 }
-.signin {
+.signup {
   border: 0;
   border-radius: 8px;
   padding: 10px 17px;
@@ -270,6 +270,16 @@ button {
   background: #dfece4;
   box-shadow: 0 12px 30px rgba(23, 50, 77, 0.08);
 }
+.leaflet-map { position: absolute; inset: 0; z-index: -1; }
+.leaflet-container { font-family: "DM Sans", sans-serif; }
+.city-report-marker { background: transparent; border: 0; }
+.city-report-marker span { display: grid; place-items: center; width: 31px; height: 31px; border: 3px solid white; color: white; border-radius: 50% 50% 50% 0; font-weight: 800; transform: rotate(-45deg); box-shadow: 0 4px 10px rgba(32, 58, 72, .22); }
+.city-report-marker span::first-letter { transform: rotate(45deg); }
+.city-report-marker .urgent { background: #e95555; }
+.city-report-marker .progress { background: #ec9e31; }
+.city-report-marker .resolved { background: #28a575; }
+.leaflet-control-zoom { border: 0 !important; box-shadow: 0 5px 13px rgba(42, 70, 83, .13) !important; }
+.leaflet-control-zoom a { color: #245778 !important; border: 0 !important; }
 .map-pattern {
   position: absolute;
   inset: -35px;
