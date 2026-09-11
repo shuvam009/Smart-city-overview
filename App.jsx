@@ -50,20 +50,20 @@ export default function App() {
         </aside>
 
         <section className="map-panel" aria-label="Interactive Kolkata city map preview">
-          <div className="map-pattern" />
-          <div className="map-river" />
-          <div className="map-label label-one">HOWRAH</div>
-          <div className="map-label label-two">KOLKATA</div>
-          <div className="map-label label-three">SALT LAKE</div>
-          <span className="road road-one" /><span className="road road-two" /><span className="road road-three" />
-          <button className="map-marker alert" aria-label="Road damage report near Esplanade">!</button>
-          <button className="map-marker work" aria-label="Civic work near Howrah">⌁</button>
-          <button className="map-marker issue" aria-label="Water issue near Park Street">!</button>
-          <button className="map-marker resolved" aria-label="Resolved issue near Salt Lake">✓</button>
-          <div className="map-topline"><span className="map-title">Kolkata live map</span><span className="map-subtitle">42 citizen reports nearby</span></div>
-          <div className="layer-control" aria-label="Map layers"><button className="selected">Issues</button><button>Traffic</button><button>Air</button><button>Works</button></div>
-          <div className="map-legend"><span><i className="legend-dot danger" />Urgent</span><span><i className="legend-dot amber-dot" />In progress</span><span><i className="legend-dot green-dot" />Resolved</span></div>
-          <div className="map-zoom"><button aria-label="Zoom in">+</button><button aria-label="Zoom out">−</button></div>
+          <div className= "map-pattern" />
+          <div className= "map-river" />
+          <div className= "map-label label-one">HOWRAH</div>
+          <div className= "map-label label-two">KOLKATA</div>
+          <div className= "map-label label-three">SALT LAKE</div>
+          <span className= "road road-one" /><span className="road road-two" /><span className="road road-three" />
+          <button className= "map-marker alert" aria-label="Road damage report near Esplanade">!</button>
+          <button className= "map-marker work" aria-label="Civic work near Howrah">⌁</button>
+          <button className= "map-marker issue" aria-label="Water issue near Park Street">!</button>
+          <button className= "map-marker resolved" aria-label="Resolved issue near Salt Lake">✓</button>
+          <div className= "map-topline"><span className="map-title">Kolkata live map</span><span className="map-subtitle">42 citizen reports nearby</span></div>
+          <div className=" layer-control" aria-label="Map layers"><button className="selected">Issues</button><button>Traffic</button><button>Air</button><button>Works</button></div>
+          <div className= "map-legend"><span><i className="legend-dot danger" />Urgent</span><span><i className="legend-dot amber-dot" />In progress</span><span><i className="legend-dot green-dot" />Resolved</span></div>
+          <div className= "map-zoom"><button aria-label="Zoom in">+</button><button aria-label="Zoom out">−</button></div>
         </section>
       </section>
 
